@@ -1,9 +1,9 @@
-## Kickstarter Project Analysis
+# Kickstarter Project Analysis
 
-# Problem Statement
+## Problem Statement
 Many creators have great ideas but struggle to get their projects funded on Kickstarter. Without data‑driven insight, it’s hard to know if a goal is too high, a category is too competitive, or the timing is off. This project analyzes Kickstarter campaign data to uncover the factors that most influence success and to help future creators plan smarter, more effective campaigns.
 
-# Executive Summary
+## Executive Summary
 Kickstarter is one of the largest crowdfunding platforms, connecting creators with backers who want to support innovative ideas. In this analysis, we explored a dataset of campaigns to understand what separates successful projects from those that fail.
 We began by cleaning and formatting the data (removing unrealistic goals and incomplete records) and engineering new variables such as campaign duration, success ratio, and launch timing. Exploratory Data Analysis was then used to identify key success drivers.
 
@@ -17,13 +17,13 @@ We began by cleaning and formatting the data (removing unrealistic goals and inc
 
 These insights show that crowdfunding success is far from random — it depends on goal setting, timing, community engagement, and smart category choices.
 
-# Data and Source
+## Data and Source
 The Kickstarter dataset used in this project was provided through the course dataset repository. It consists of public campaign information including project goals, pledged amounts, backers, categories, and time‑related records.
 All monetary values are standardized in USD for consistency.
 
 The cleaned dataset excludes incomplete or open campaigns and retains only finalized projects labeled “Successful” or “Failed.”
 
-# Data Dictionary
+## Data Dictionary
 The table below lists the columns included in the cleaned dataset used for analysis.
 
 | Field       | Description                                                       |
@@ -44,7 +44,7 @@ The table below lists the columns included in the cleaned dataset used for analy
 | Project_Duration| Total campaign length in days (Deadline – Launch Date)        |
 | Pledged_Ratio| Ratio of pledged amount to Goal                                  |
 
-# Summary of Analysis
+## Summary of Analysis
 1. **Funding Goals:** Projects with smaller goals have a much higher success rate.
 2. **Community Impact:** More backers mean more funding; community size is the strongest success driver.
 3. **Campaign Length:** 30‑day campaigns outperform shorter or longer ones.
@@ -52,7 +52,7 @@ The table below lists the columns included in the cleaned dataset used for analy
 5. **Category Insights:** Creative and niche categories perform best; Technology and Journalism underperform.
 6. **Geography:** Projects from the US and UK lead both in volume and success rate.
 
-# Recommendations
+## Recommendations
 - **Set achievable goals:** Break larger projects into smaller funding phases to increase success odds.
 - **Build your audience early:** Community engagement before launch has a direct impact on pledge amounts.
 - **Launch smart:** Start campaigns on a Tuesday afternoon in March, April, or October when backer activity peaks.
@@ -60,13 +60,13 @@ The table below lists the columns included in the cleaned dataset used for analy
 - **Choose your category wisely:** If your idea fits multiple themes, lean toward a creative or niche classification.
 - **Track early traction:** Strong first‑week momentum predicts overall success — if growth is slow, reconsider the strategy rather than extending the campaign.
 
-# Conclusion
+## Conclusion
 Success on Kickstarter is driven by preparation, not luck. By analyzing thousands of campaigns, we found that well‑timed, community‑backed projects with realistic goals consistently outperform the rest. Applying these data‑based strategies can help creators design campaigns that stand out and achieve their funding targets.
 
-# Areas for Further Research
+## Areas for Further Research
 - Examine text features like project descriptions or titles to see how language impacts success.
 - Explore the effect of location beyond country (e.g., city or region).
 - Analyze changes in success factors over time as Kickstarter evolves.
 
-# Sources
+## Sources
 Kickstarter dataset provided by course materials
